@@ -1,5 +1,5 @@
 <template>
-  <div class="border border-red-400">
+  <div class="">
     <div class="bg-slate-200 text-indigo-950 py-10 px-10 lg:px-48">
       <h3 class="text-4xl font-extrabold mb-10">Get in touch with us</h3>
       <div class="grid sm:grid-cols-4 sm:gap-4">
