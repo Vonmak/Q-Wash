@@ -29,7 +29,7 @@
 
 <script>
 import NavBar from '../components/NavBar.vue'
-import FooterView from './FooterView.vue'
+import FooterView from '../components/TheFooter.vue'
 import merc from '../assets/images/wash.jpeg'
 
 export default {
