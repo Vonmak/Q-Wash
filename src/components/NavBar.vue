@@ -37,7 +37,6 @@ export default {
         { name: 'Home', to: '/' },
         { name: 'About', to: '/about' },
         { name: 'Services', to: '/services' },
-        { name: 'Contact', to: '/contact' },
         { name: 'Register', to: '/register' },
         { name: 'Login', to: '/login' }
       ]
@@ -46,15 +45,12 @@ export default {
   computed: {
     navClasses() {
       return {
-        'flex justify-between py-5 items-center px-2 md:px-5 z-50 fixed top-0 w-full shadow-md': true,
-        'bg-indigo-800 text-white': this.scrollPosition > 0,
+        'flex justify-between py-5 items-center px-2 md:px-5 top-0 w-full shadow-md bg-indigo-950': true,
       }
     },
     menuClasses() {
       return {
-        'flex flex-col absolute top-0 py-5 duration-300': true,
-        'bg-indigo-800 text-white': this.scrollPosition > 0,
-        'bg-slate-400': this.scrollPosition === 0,
+        'flex flex-col absolute top-0 py-5 duration-300 bg-slate-600': true,
         '-right-[0%]': this.active,
         '-right-[100%]': !this.active,
         'w-full items-center justify-center space-y-5': true,
