@@ -1,9 +1,9 @@
 <template>
   <div>
     <NavBar />
-    <section class="h-screen border-4 border-red-700">
+    <section class="h-screen">
       <div
-        class="h-full border-4 border-blue-900 bg-indigo-700"
+        class="h-full bg-indigo-700"
       :style="{
       backgroundImage: `linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1)), url(${merc})`,
       backgroundSize: 'cover',
@@ -23,16 +23,19 @@
         </div>
       </div>
     </section>
+    <FooterView/>
   </div>
 </template>
 
 <script>
 import NavBar from '../components/NavBar.vue'
+import FooterView from './FooterView.vue'
 import merc from '../assets/images/wash.jpeg'
 
 export default {
   components: {
-    NavBar
+    NavBar,
+    FooterView
   },
   data() {
     return {
