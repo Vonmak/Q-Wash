@@ -12,14 +12,17 @@
     }"
       >
         <div
-          class="text-orange-700 font-bold p-4 absolute left-0 bottom-0 transform -translate-y-1/2 md:translate-x-1/2"
+          class="text-white font-bold p-4 absolute left-0 bottom-0 transform -translate-y-1/2 md:translate-x-1/2"
         >
-          <div class="bg-indigo-600 text-xl px-3 py-1">Looking to</div>
+          <div class="bg-indigo-950 text-xl px-3 py-1">Looking to</div>
           <div class="bg-green-600 text-2xl my-2 px-3 py-1 font-extrabold">Wash your Car</div>
-          <div class="bg-indigo-600 text-xl px-3 py-1">at the comfort of your home?</div>
-          <router-link to="/login" type="submit" class="bg-green-600 hover:bg-red-700 p-2 text-2xl rounded-md mt-1">
-            Get Started?
-          </router-link>
+          <div class="bg-indigo-950 text-xl px-3 py-1 mb-2">at the comfort of your home?</div>
+          <router-link
+          to="/login"
+          class="bg-green-800 hover:bg-green-900 p-2 text-white text-xl rounded mt-2"
+        >
+          Get Started?
+        </router-link>
         </div>
       </div>
     </section>
