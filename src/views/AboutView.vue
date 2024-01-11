@@ -1,11 +1,11 @@
 <template>
   <div>
     <NavBar />
-    <div class="p-10 lg:px-48">
+    <div class="bg-slate-300 text-indigo-950 py-10 px-10 lg:px-48">
       <div class="text-center mb-6">
         <h2 class="text-3xl font-extrabold mb-6">Our Team</h2>
         <p class="mb-6 text-lg">
-          <span class="text-green-500 text-xl">Q-Wash:</span> Turning Grime into Gleam, One Suds at
+          <span class="text-indigo-700 text-xl">Q-Wash:</span> Turning Grime into Gleam, One Suds at
           a Time. Unleash the Shine, Nairobi's Ultimate Car Care!
         </p>
         <router-link
