@@ -4,6 +4,7 @@ import SignUp from "../views/auth/SignUp.vue";
 import SignIn from "../views/auth/SignIn.vue";
 import AboutViewVue from "@/views/AboutView.vue";
 import ServicesViewVue from "@/views/ServicesView.vue";
+import ServiceDetailVue from "@/views/ServiceDetail.vue";
 
 const routes = [
   {
@@ -20,8 +21,7 @@ const routes = [
     path: "/login",
     name: "SignIn",
     component: SignIn,
-  }
-  ,
+  },
   {
     path: "/about",
     name: "About",
@@ -31,6 +31,11 @@ const routes = [
     path: "/services",
     name: "Services",
     component: ServicesViewVue,
+  },
+  {
+    path: "/services/:slug",
+    name: "ServiceDetail",
+    component: ServiceDetailVue,
   },
 ];
 const router = createRouter({ history: createWebHistory(), routes });
